@@ -1,94 +1,73 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<html lang="en">
+
+<head>
+    <!-- Shortcut FavIcon -->
+    <link rel="shortcut icon" href="/assets/fav-icons/favicon.ico" />
+
+    <!-- Favicon in PNG format -->
+    <link rel="icon" type="image/png" href="/assets/fav-icons/favicon-96x96.png" sizes="96x96" />
+
+    <!-- Favicon in ICO format (fallback for legacy browsers) -->
+    <link rel="icon" type="image/svg+xml" href="/assets/fav-icons/favicon.svg" />
+
+    <!-- Apple Touch Icon for iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/fav-icons/apple-touch-icon.png" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="apple-mobile-web-app-title" content="LegsGo Holidays" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no" />
+    <meta name="facebook-domain-verification" content="e4pphxo5jsvcpzv7jnmrvzfb02ikcq" />
+    <meta name="google-site-verification" content="2Dbq-udojHEhEiGMPI18NW27kCptIjgpNvjwxUkrNAs" />
+    <meta name="description"
+        content="Legsgo Holidays Best travel agency to plan your trip. Discover the best tour packages, customized itineraries, and life-changing travel experiences to stunning locations in India and beyond." />
+    <title>Legsgo Holidays | Best Travel Agency in India</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.8/dist/lenis.css">
+    <link rel="manifest" href="/assets/fav-icons/site.webmanifest" />
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WH2MZXD6');
+    </script>
+    <!-- End Google Tag Manager -->
+
+  <script type="module" crossorigin src="/assets/index-f7rB-RrG.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-ui-CO2oigVm.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-state-CuU5odDQ.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-react-DdZoXWV7.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-utils-B6xdszpH.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-carousel-JpIHyi-o.js">
+  <link rel="modulepreload" crossorigin href="/assets/vendor-maps-Cs_NUWuu.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-DA_HQSs7.css">
+</head>
+
 <body>
+    <div id="root"></div>
 
-<div class="w3-container w3-teal">
-<h1>Summer Holiday</h1>
-</div>
+    <script src="https://unpkg.com/lenis@1.1.8/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
 
-<div class="w3-content">
+    <script>
+        const lenis = new Lenis();
 
-<div class="w3-row w3-margin">
+        lenis.on('scroll', () => {
+            ScrollTrigger.update();
+        });
 
-<div class="w3-third">
-  <img src="img_5terre.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>5 Terre</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
+        gsap.ticker.add((time) => {
+            lenis.raf(time * 1000);
+        });
 
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="img_monterosso.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Monterosso</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="img_vernazza.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Vernazza</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="img_manarola.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Manarola</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="img_corniglia.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Corniglia</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
-
-</div>
-<div class="w3-row w3-margin">
-
-<div class="w3-third">
-  <img src="img_riomaggiore.jpg" style="width:100%;min-height:200px">
-</div>
-<div class="w3-twothird w3-container">
-  <h2>Riomaggiore</h2>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  </p>
-</div>
-
-</div>
-</div>
+        gsap.ticker.lagSmoothing(0);
+    </script>
 </body>
+
 </html>
