@@ -7359,7 +7359,7 @@ const Be = ({heading: e, data: t, animateOnce: a=!1, viewAllRoute: n, reAnimate:
             boxShadow: "inset 0 0 100px rgba(0,0,0,0.5)"
         },
         children: [s.jsx("img", {
-            src: "assets/png/hero_title.png",
+            src: "https://www.legsgo.com/assets/png/hero_title.png",
             loading: "lazy",
             alt: "Travel Beyond Boundaries - Hero Title",
             className: "max-h-full max-w-full w-auto h-auto sm:h-64 md:h-full object-contain transform hover:scale-110 transition-transform duration-500 ease-in-out z-10"
@@ -15830,7 +15830,7 @@ const Cr = {
                         scale: .97
                     },
                     children: [s.jsxs("a", {
-                        href: "https://partners.mihuru.com/book-now-pay-later/?utm_source=INDTA006118",
+                        href: "https://partners..com/book-now-pay-later/?utm_source=INDTA006118",
                         target: "_blank",
                         className: `flex items-center justify-center text-2xl text-white bg-[#044b5f] rounded-full hover:bg-[#088888] transition shadow-md ${a ? "w-10 h-10" : "w-12 h-12"}`,
                         children: [!a && s.jsx("div", {
@@ -15861,7 +15861,7 @@ const Cr = {
                                 })]
                             })
                         }), s.jsx("img", {
-                            src: "assets/svg/mihuru.svg",
+                            src: "https://www.legsgo.com/assets/svg/mihuru.svg",
                             alt: "Mihuru",
                             className: a ? "w-5 h-5" : "w-6 h-6"
                         })]
