@@ -221,7 +221,7 @@ const $a = ["animate", "whileInView", "whileFocus", "whileHover", "whileTap", "w
   , Ud = e => ({
     type: "spring",
     stiffness: 550,
-    damping: e === 0 ? 2 * Math.sqrt(550) : 30,
+    damping: e === 0 ? 2 * .sqrt(550) : 30,
     restSpeed: 10
 })
   , qd = {
@@ -310,7 +310,7 @@ function eo(e, t) {
       , g = () => {
         const y = performance.now();
         a = !1,
-        i.delta = n ? 1e3 / 60 : Math.max(Math.min(y - i.timestamp, Qd), 1),
+        i.delta = n ? 1e3 / 60 : .max(.min(y - i.timestamp, Qd), 1),
         i.timestamp = y,
         i.isProcessing = !0,
         l.process(i),
@@ -6891,7 +6891,7 @@ const se = ({children: e, direction: t, delay: a, duration: n, once: i=!0, justO
                 children: [s.jsx("div", {
                     className: "inline-block w-full aspect-square rounded-2xl overflow-hidden bg-gray-100 group",
                     children: s.jsx("img", {
-                        src: u[Math.floor(Math.random() * u.length) || 0],
+                        src: "https://www.legsgo.com/" + u[Math.floor(Math.random() * u.length) || 0],
                         className: "size-full object-cover group-hover:scale-110 transition-transform duration-500",
                         alt: g,
                         loading: "lazy"
