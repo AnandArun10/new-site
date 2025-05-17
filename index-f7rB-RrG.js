@@ -221,7 +221,7 @@ const $a = ["animate", "whileInView", "whileFocus", "whileHover", "whileTap", "w
   , Ud = e => ({
     type: "spring",
     stiffness: 550,
-    damping: e === 0 ? 2 * .sqrt(550) : 30,
+    damping: e === 0 ? 2 * Math.sqrt(550) : 30,
     restSpeed: 10
 })
   , qd = {
@@ -310,7 +310,7 @@ function eo(e, t) {
       , g = () => {
         const y = performance.now();
         a = !1,
-        i.delta = n ? 1e3 / 60 : .max(.min(y - i.timestamp, Qd), 1),
+        i.delta = n ? 1e3 / 60 : Math.max(Math.min(y - i.timestamp, Qd), 1),
         i.timestamp = y,
         i.isProcessing = !0,
         l.process(i),
