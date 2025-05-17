@@ -6395,18 +6395,18 @@ const et = ({text: e="", duration: t=.5, delayMultiple: a=.04, framerProps: n={
                 className: "h-[400px] max-sm:h-72 grid gap-3",
                 children: [s.jsx(sa, {
                     to: "/dubai",
-                    imageUrl: "/assets/webp/home/dubai.webp",
+                    imageUrl: "https://www.legsgo.com/assets/webp/home/dubai.webp",
                     label: "Dubai",
                     bgColor: "bg-gray-200"
                 }), s.jsx(sa, {
                     to: "/bali",
-                    imageUrl: "/assets/webp/home/bali.webp",
+                    imageUrl: "https://www.legsgo.com/assets/webp/home/bali.webp",
                     label: "Bali",
                     bgColor: "bg-red-200"
                 })]
             }), s.jsx(sa, {
                 to: "/maldives",
-                imageUrl: "/assets/webp/home/maldives.webp",
+                imageUrl: "https://www.legsgo.com/assets/webp/home/maldives.webp",
                 label: "Maldives",
                 bgColor: "bg-green-200"
             })]
@@ -7355,7 +7355,7 @@ const Be = ({heading: e, data: t, animateOnce: a=!1, viewAllRoute: n, reAnimate:
     children: [s.jsxs("div", {
         className: "h-[400px] sm:h-[500px] md:h-[600px] bg-cover bg-center saturate-150 flex justify-center items-center relative overflow-hidden transition-all duration-500 hover:saturate-200 group before:content-[''] before:absolute before:inset-0 before:bg-black before:opacity-20 before:z-0",
         style: {
-            backgroundImage: "url('/assets/webp/attractions/dubai/hero_bg.webp')",
+            backgroundImage: "url('https://www.legsgo.com/assets/webp/attractions/dubai/hero_bg.webp')",
             boxShadow: "inset 0 0 100px rgba(0,0,0,0.5)"
         },
         children: [s.jsx("img", {
@@ -7413,7 +7413,7 @@ const Be = ({heading: e, data: t, animateOnce: a=!1, viewAllRoute: n, reAnimate:
                             children: [s.jsx("div", {
                                 className: "w-16 h-16 rounded-full bg-white/20 flex items-center justify-center p-3 backdrop-blur-sm",
                                 children: s.jsx("img", {
-                                    src: `/assets/svg/${e.icon}`,
+                                    src: `https://www.legsgo.com/assets/svg/${e.icon}`,
                                     loading: "lazy",
                                     alt: e.text,
                                     className: "w-10 h-10 invert object-contain"
@@ -7580,15 +7580,15 @@ function p0(e) {
     })(e)
 }
 const f0 = [{
-    icon: "/assets/svg/business-plan.svg",
+    icon: "https://www.legsgo.com/assets/svg/business-plan.svg",
     heading: "A Business Plan",
     paragraph: "A comprehensive business plan activity, products services, marketing strategies, and financial forecasts is required."
 }, {
-    icon: "/assets/svg/lease-agreement.svg",
+    icon: "https://www.legsgo.com/assets/svg/lease-agreement.svg",
     heading: "A Virtual Lease Agreement",
     paragraph: "The lease agreement should be for a commercial property that is suitable for the business's activities. However, in most cases, physical space is not required, so a virtual address is generally recommended."
 }, {
-    icon: "/assets/svg/essential.svg",
+    icon: "https://www.legsgo.com/assets/svg/essential.svg",
     heading: "Essential Documents",
     paragraph: `1) Proof of identity and residence for all shareholders or partners
             2) Lease agreement for the business premises
@@ -7596,7 +7596,7 @@ const f0 = [{
             4) Memorandum of Association (MOA) (Only for subsidiary companies)
             5) Proof of capital`
 }, {
-    icon: "/assets/svg/trade.svg",
+    icon: "https://www.legsgo.com/assets/svg/trade.svg",
     heading: "A Trade Name",
     paragraph: "The trade name is the name that will be used by business to conduct its activities."
 }]
@@ -7621,7 +7621,7 @@ const f0 = [{
             children: [s.jsx("span", {
                 className: "inline-block size-12 aspect-square rounded-full overflow-hidden shrink-0 bg-white/20",
                 children: s.jsx("img", {
-                    src: e.icon || "/assets/logo-light.png",
+                    src: e.icon || "https://www.legsgo.com/assets/logo-light.png",
                     alt: e.heading,
                     loading: "lazy",
                     className: "size-full object-full"
@@ -8448,7 +8448,7 @@ function Nn(e) {
     }
     ))
 }
-const P0 = "/assets/webp/business-setup/bg-business-support.webp"
+const P0 = "https://www.legsgo.com/assets/webp/business-setup/bg-business-support.webp"
   , M0 = [{
     type: "Commercial License",
     description1: "A Commercial Trade License in the UAE is essential for companies involved in the buying and selling of goods. This license is mandatory for businesses that wish to engage in trading activities, whether within the UAE or internationally. Obtaining a commercial trade license provides businesses with the legal framework to operate seamlessly and tap into the UAE's lucrative market.",
@@ -9127,7 +9127,7 @@ const Wt = ({slides: e=[1, 2, 3, 5], aspectRatio: t="5/1", noControls: a=!1, del
         })]
     })
 }
-  , R0 = "/assets/Earth%20png.mp4"
+  , R0 = "https://www.legsgo.com/assets/Earth%20png.mp4"
   , B0 = ({heading: e, paragraph: t, image: a, layout: n, theme: i}) => {
     const [r,o] = f.useState(0)
       , [l,c] = f.useState(0)
@@ -9936,7 +9936,7 @@ const W0 = [{
                             children: [s.jsxs("div", {
                                 className: "absolute inset-0 bg-gradient-to-b from-white via-gray-50/50 to-gray-100/50",
                                 children: [s.jsx("div", {
-                                    className: "absolute inset-0 bg-[url('/src/assets/pattern.svg')] opacity-[0.02]"
+                                    className: "absolute inset-0 bg-[url('/srchttps://www.legsgo.com/assets/pattern.svg')] opacity-[0.02]"
                                 }), s.jsx("div", {
                                     className: "absolute top-0 left-0 right-0 h-24 md:h-32 bg-gradient-to-b from-white to-transparent"
                                 }), s.jsx("div", {
@@ -14467,7 +14467,7 @@ const n1 = ({itinerary: e}) => {
                                     children: r.map( (x, w) => s.jsx(We, {
                                         className: "basis-auto pl-10 py-2.5",
                                         children: s.jsx("div", {
-                                            className: "bg-white p-6 rounded-2xl bg-[url('/assets/svg/day-night-v2.svg')] bg-[length:auto_30%] shadow-lg bg-right-top bg-no-repeat",
+                                            className: "bg-white p-6 rounded-2xl bg-[url('https://www.legsgo.com/assets/svg/day-night-v2.svg')] bg-[length:auto_30%] shadow-lg bg-right-top bg-no-repeat",
                                             onClick: () => h(w),
                                             children: s.jsxs("div", {
                                                 className: "grid justify-items-center ",
@@ -14790,7 +14790,7 @@ const n1 = ({itinerary: e}) => {
     return s.jsxs("div", {
         className: "relative",
         children: [s.jsx("img", {
-            src: "/assets/webp/abroad-education/college-campus.webp",
+            src: "https://www.legsgo.com/assets/webp/abroad-education/college-campus.webp",
             className: "absolute inset-0 object-cover w-full h-full",
             alt: "College Campus",
             loading: "lazy"
@@ -14913,32 +14913,32 @@ const n1 = ({itinerary: e}) => {
 })
   , h1 = () => {
     const e = [{
-        imgSrc: "/assets/png/education/book.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/book.png",
         imgAlt: "Book Icon",
         title: "Course Recommendation",
         description: "Gain insights on selecting the right course based on interests, career goals, and market demand."
     }, {
-        imgSrc: "/assets/png/education/admission.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/admission.png",
         imgAlt: "Admission Icon",
         title: "Admissions Application Process",
         description: "Understand the application process by researching institutions and their requirements, preparing necessary documents (transcripts, test scores), and submitting the application while following up as needed."
     }, {
-        imgSrc: "/assets/png/education/statement.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/statement.png",
         imgAlt: "Statement Icon",
         title: "Statement of Purpose",
         description: "A crucial document that highlights your motivations, goals, and why you are a suitable candidate."
     }, {
-        imgSrc: "/assets/png/education/cv.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/cv.png",
         imgAlt: "CV Icon",
         title: "Resume for Students",
         description: "Showcase your skills, experiences, and achievements in a concise manner."
     }, {
-        imgSrc: "/assets/png/education/feedback.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/feedback.png",
         imgAlt: "Feedback Icon",
         title: "Letter of Recommendation",
         description: "A letter that supports your application by providing insights into your character, achievements, and capabilities."
     }, {
-        imgSrc: "/assets/png/education/visa.png",
+        imgSrc: "https://www.legsgo.com/assets/png/education/visa.png",
         imgAlt: "Visa Icon",
         title: "Student Visa",
         description: "A legal requirement for studying abroad, allowing students to reside in a foreign country for educational purposes."
@@ -15017,12 +15017,12 @@ const n1 = ({itinerary: e}) => {
                 className: "flex flex-col items-end px-2 sm:px-3 space-y-3 sm:space-y-4",
                 children: [s.jsx("img", {
                     className: "object-cover rounded-xl shadow-md h-20 w-20 sm:h-40 sm:w-40 xl:h-48 xl:w-48 transition-all duration-300 hover:scale-105 hover:shadow-lg",
-                    src: "/assets/webp/abroad-education/student_with_books.webp",
+                    src: "https://www.legsgo.com/assets/webp/abroad-education/student_with_books.webp",
                     alt: "Students with books",
                     loading: "lazy"
                 }), s.jsx("img", {
                     className: "object-cover rounded-xl shadow-md h-16 w-16 sm:h-28 sm:w-28 xl:h-36 xl:w-36 transition-all duration-300 hover:scale-105 hover:shadow-lg",
-                    src: "/assets/webp/abroad-education/student_convocation.webp",
+                    src: "https://www.legsgo.com/assets/webp/abroad-education/student_convocation.webp",
                     alt: "Student Convocation",
                     loading: "lazy"
                 })]
@@ -15030,7 +15030,7 @@ const n1 = ({itinerary: e}) => {
                 className: "px-2 sm:px-3",
                 children: s.jsx("img", {
                     className: "object-cover rounded-xl shadow-md h-32 w-32 sm:h-56 sm:w-56 xl:h-72 xl:w-72 transition-all duration-300 hover:scale-105 hover:shadow-lg",
-                    src: "/assets/webp/abroad-education/student_with_professor.webp",
+                    src: "https://www.legsgo.com/assets/webp/abroad-education/student_with_professor.webp",
                     alt: "Student with Professor",
                     loading: "lazy"
                 })
@@ -15040,7 +15040,7 @@ const n1 = ({itinerary: e}) => {
 })
   , f1 = () => {
     const e = [{
-        imageSrc: "/assets/webp/abroad-education/country_latvia.webp",
+        imageSrc: "https://www.legsgo.com/assets/webp/abroad-education/country_latvia.webp",
         altText: "Study in Latvia",
         title: "Latvia",
         description: "Latvia boasts an extensive selection of study programs, including popular fields like international law, business, and relations. Engineering programs in Latvia are particularly renowned for producing highly qualified graduates.",
@@ -15053,7 +15053,7 @@ const n1 = ({itinerary: e}) => {
             intlStudents: "10,000+"
         }
     }, {
-        imageSrc: "/assets/webp/abroad-education/country_georgia.webp",
+        imageSrc: "https://www.legsgo.com/assets/webp/abroad-education/country_georgia.webp",
         altText: "Study in Georgia",
         title: "Georgia",
         description: "Universities in Georgia offer internationally recognized degrees with a well-rounded curriculum integrating the latest advancements. Medical schools particularly stand out, with graduates eligible for licensing exams globally.",
@@ -15066,7 +15066,7 @@ const n1 = ({itinerary: e}) => {
             intlStudents: "15,000+"
         }
     }, {
-        imageSrc: "/assets/webp/abroad-education/country_france.webp",
+        imageSrc: "https://www.legsgo.com/assets/webp/abroad-education/country_france.webp",
         altText: "Study in France",
         title: "France",
         description: "With nearly 400,000 international students, France ranks among top global education destinations. Public universities offer affordable tuition with numerous scholarships for international students.",
@@ -15079,7 +15079,7 @@ const n1 = ({itinerary: e}) => {
             intlStudents: "400,000+"
         }
     }, {
-        imageSrc: "/assets/webp/abroad-education/country_russia.webp",
+        imageSrc: "https://www.legsgo.com/assets/webp/abroad-education/country_russia.webp",
         altText: "Study in Russia",
         title: "Russia",
         description: "Russia excels in engineering, healthcare, business, and IT education. Medical degrees are globally recognized by WHO and MCI. Select students can access free education through government scholarships.",
@@ -15194,7 +15194,7 @@ const n1 = ({itinerary: e}) => {
             className: "overflow-hidden rounded-xl shadow-2xl",
             children: s.jsx("img", {
                 className: "object-cover w-full h-56 sm:h-96 transform transition duration-700 hover:scale-110",
-                src: "/assets/webp/abroad-education/student_counselling.webp",
+                src: "https://www.legsgo.com/assets/webp/abroad-education/student_counselling.webp",
                 alt: "Counselling Session",
                 loading: "lazy"
             })
@@ -15525,19 +15525,19 @@ const Cr = {
                                 className: "grid grid-rows-1 grid-flow-col gap-0 justify-evenly",
                                 children: [{
                                     name: "Activities",
-                                    icon: "/assets/png/activity.png"
+                                    icon: "https://www.legsgo.com/assets/png/activity.png"
                                 }, {
                                     name: "Tours",
-                                    icon: "/assets/png/tour.png"
+                                    icon: "https://www.legsgo.com/assets/png/tour.png"
                                 }, {
                                     name: "Packages",
-                                    icon: "/assets/png/package.png"
+                                    icon: "https://www.legsgo.com/assets/png/package.png"
                                 }, {
                                     name: "Business",
-                                    icon: "/assets/png/business.png"
+                                    icon: "https://www.legsgo.com/assets/png/business.png"
                                 }, {
                                     name: "Others",
-                                    icon: "/assets/png/miscellaneous.png"
+                                    icon: "https://www.legsgo.com/assets/png/miscellaneous.png"
                                 }].map( (h, g) => s.jsxs(V.li, {
                                     className: `py-1.5 cursor-pointer inline-flex flex-wrap  flex-col opacity-80  w-full rounded place-items-center text-[#1F0079] ${i === h.name ? "bg-[#1F0079] text-white" : "filter: opacity(0.5) drop-shadow(0 0 0 blue)"}`,
                                     variants: Cr,
@@ -16035,7 +16035,7 @@ const Cr = {
                     className: "inline-block h-16 w-auto",
                     children: s.jsx("img", {
                         className: "size-full object-contain object-left pl-3",
-                        src: "/assets/logo-legsgo.png",
+                        src: "https://www.legsgo.com/assets/logo-legsgo.png",
                         alt: "LegsGo Holidays",
                         loading: "lazy"
                     })
@@ -16118,7 +16118,7 @@ const Cr = {
                                                     }), s.jsxs("div", {
                                                         className: "relative rounded-lg overflow-hidden flex-grow min-h-[160px] group/featured mb-3 shadow-md",
                                                         children: [s.jsx("img", {
-                                                            src: "/assets/featured-destination.jpg",
+                                                            src: "https://www.legsgo.com/assets/featured-destination.jpg",
                                                             alt: "Featured Destination",
                                                             className: "absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/featured:scale-110",
                                                             onError: M => {
@@ -16157,15 +16157,15 @@ const Cr = {
                                                             children: [s.jsx("div", {
                                                                 className: "w-10 h-10 rounded-lg overflow-hidden shadow-sm bg-purple-100 dark:bg-purple-900/20 shrink-0",
                                                                 children: s.jsx("img", {
-                                                                    src: `/assets/svg/flags/${M.toLowerCase()}.svg`,
+                                                                    src: `https://www.legsgo.com/assets/svg/flags/${M.toLowerCase()}.svg`,
                                                                     alt: M,
                                                                     className: "w-full h-full object-cover",
                                                                     onError: B => {
                                                                         B.target.onerror = null,
-                                                                        B.target.src = `/assets/svg/flags/${M.toLowerCase()}.svg`,
+                                                                        B.target.src = `https://www.legsgo.com/assets/svg/flags/${M.toLowerCase()}.svg`,
                                                                         B.target.onerror = () => {
                                                                             B.target.onerror = null,
-                                                                            B.target.src = "/assets/svg/country-placeholder.svg",
+                                                                            B.target.src = "https://www.legsgo.com/assets/svg/country-placeholder.svg",
                                                                             B.target.onerror = () => {
                                                                                 const O = B.target.parentNode;
                                                                                 if (O) {
@@ -16255,7 +16255,7 @@ const Cr = {
                 }), s.jsx("div", {
                     className: "inset-0 flex items-center justify-center",
                     children: s.jsx("img", {
-                        src: "/assets/svg/iata.svg",
+                        src: "https://www.legsgo.com/assets/svg/iata.svg",
                         alt: "IATA",
                         className: "h-20 w-auto",
                         style: {
@@ -16281,7 +16281,7 @@ const Cr = {
                 className: `fixed z-50 inset-y-0 left-0 w-full max-w-sm transform ${e ? "translate-x-0" : "-translate-x-full"} transition-all duration-400 ease-[cubic-bezier(0.16,1,0.3,1)] lg:hidden overflow-hidden flex flex-col`,
                 onClick: j => j.stopPropagation(),
                 children: [s.jsx("div", {
-                    className: "absolute top-0 left-0 right-0 h-48 rounded-br-[40px] bg-[url('/assets/fav-icons/bg-textured.jpg')] bg-cover bg-center"
+                    className: "absolute top-0 left-0 right-0 h-48 rounded-br-[40px] bg-[url('https://www.legsgo.com/assets/fav-icons/bg-textured.jpg')] bg-cover bg-center"
                 }), s.jsx("button", {
                     type: "button",
                     onClick: j => {
@@ -16304,7 +16304,7 @@ const Cr = {
                             className: "h-16 w-16 rounded-2xl overflow-hidden shadow-lg shadow-purple-900/30 p-2",
                             children: s.jsx("img", {
                                 className: "size-full object-contain",
-                                src: "/assets/logo-legsgo.png",
+                                src: "https://www.legsgo.com/assets/logo-legsgo.png",
                                 alt: "LegsGo Holidays",
                                 loading: "lazy"
                             })
@@ -17156,7 +17156,7 @@ const Cr = {
                             children: [s.jsx("div", {
                                 className: "w-32 h-12 flex-shrink-0 bg-white rounded-md dark:bg-gray-800 flex items-center justify-center p-1",
                                 children: s.jsx("img", {
-                                    src: "/assets/Matrix_Logo_180x.png",
+                                    src: "https://www.legsgo.com/assets/Matrix_Logo_180x.png",
                                     alt: "Matrix e-SIM Logo",
                                     className: "max-w-full max-h-full object-contain"
                                 })
@@ -17200,49 +17200,49 @@ const Cr = {
                     children: [s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/gpay.png",
+                            src: "https://www.legsgo.com/assets/svg/payment/gpay.png",
                             alt: "Google Pay",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/phonepe.svg",
+                            src: "https://www.legsgo.com/assets/svg/payment/phonepe.svg",
                             alt: "PhonePe",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/paytm.svg",
+                            src: "https://www.legsgo.com/assets/svg/payment/paytm.svg",
                             alt: "Paytm",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/upi.svg",
+                            src: "https://www.legsgo.com/assets/svg/payment/upi.svg",
                             alt: "UPI",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/mastercard.png",
+                            src: "https://www.legsgo.com/assets/svg/payment/mastercard.png",
                             alt: "Mastercard",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/visa.png",
+                            src: "https://www.legsgo.com/assets/svg/payment/visa.png",
                             alt: "Visa",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
                     }), s.jsx("div", {
                         className: "p-3 bg-white rounded-lg shadow-sm flex items-center justify-center transform hover:scale-105 transition-transform duration-200 dark:bg-gray-700",
                         children: s.jsx("img", {
-                            src: "/assets/svg/payment/rupay.png",
+                            src: "https://www.legsgo.com/assets/svg/payment/rupay.png",
                             alt: "RuPay",
                             className: "h-10 sm:h-12 w-auto object-contain"
                         })
@@ -17469,7 +17469,7 @@ function yc() {
     return s.jsxs("div", {
         className: "relative",
         children: [s.jsx("img", {
-            src: `/assets/webp/blogs/${a.image}`,
+            src: `https://www.legsgo.com/assets/webp/blogs/${a.image}`,
             className: "absolute inset-0 object-cover w-full h-full",
             alt: "College Campus",
             loading: "lazy"
@@ -17575,7 +17575,7 @@ function A1(e) {
                         children: [s.jsx("div", {
                             className: "h-10 w-10 shrink-0 overflow-hidden rounded-full bg-gray-100",
                             children: s.jsx("img", {
-                                src: "/assets/png/author.png",
+                                src: "https://www.legsgo.com/assets/png/author.png",
                                 loading: "lazy",
                                 alt: "Photo by LegsGo",
                                 className: "h-full w-full object-cover object-center"
@@ -18212,29 +18212,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "Magical Honeymoon",
         subtitle: "Adventure",
         cta: "Book Your Dream Journey",
-        backgroundImage: "/assets/webp/campaign/honeymoon/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/honeymoon/hero-image.webp"
     },
     packages: [{
         title: "MALDIVES",
         duration: "4 Nights & 5 Days",
         type: "Honey Moon Package",
         details: ["2 Night Beach Villa", "2 Night Water Villa"],
-        image: "/assets/webp/campaign/honeymoon/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/honeymoon/package-01.webp"
     }, {
         title: "BALI",
         duration: "4 Nights & 5 Days",
         type: "Honey Moon Package",
         details: ["4 Night Private Pool", "Villa"],
-        image: "/assets/webp/campaign/honeymoon/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/honeymoon/package-02.webp"
     }],
     gallery: {
         title: "Let LEGSGO Craft Your Unforgettable Honeymoon",
-        images: ["/assets/webp/campaign/honeymoon/gallery-01.webp", "/assets/webp/campaign/honeymoon/gallery-02.webp", "/assets/webp/campaign/honeymoon/gallery-03.webp", "/assets/webp/campaign/honeymoon/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/honeymoon/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/honeymoon/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/honeymoon/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/honeymoon/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Destinations",
         description: "Explore the enchanting beauty of Southeast Asia with three incredible destinations that offer a mix of culture, adventure, and relaxation.",
-        images: ["/assets/webp/campaign/honeymoon/promo-01.webp", "/assets/webp/campaign/honeymoon/promo-02.webp", "/assets/webp/campaign/honeymoon/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/honeymoon/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/honeymoon/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/honeymoon/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18247,29 +18247,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "Thailand",
         subtitle: "A Journey through Paradise",
         cta: "Book Your Dream Journey",
-        backgroundImage: "/assets/webp/campaign/thailand/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/thailand/hero-image.webp"
     },
     packages: [{
         title: "Thailand’s Heart & Shores: City & Temple Exploration",
         duration: "3 Nights & 4 Days",
         type: "Tour Package",
         details: ["Coral Island Beach Tour", "City Tour", "Temple Tour"],
-        image: "/assets/webp/campaign/thailand/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/thailand/package-01.webp"
     }, {
         title: "Discover Thailand: From Tigers to Tropical Shores",
         duration: "4 Nights & 5 Days",
         type: "Tour Package",
         details: ["Tiger Topia Sriracha Zoo", "Coral Island Tour", "Safari World & Marine Park", "City Tour"],
-        image: "/assets/webp/campaign/thailand/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/thailand/package-02.webp"
     }],
     gallery: {
         title: "Let LEGSGO Craft Your Unforgettable Trip",
-        images: ["/assets/webp/campaign/thailand/gallery-01.webp", "/assets/webp/campaign/thailand/gallery-02.webp", "/assets/webp/campaign/thailand/gallery-03.webp", "/assets/webp/campaign/thailand/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/thailand/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/thailand/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/thailand/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/thailand/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Destinations",
         description: "Explore the enchanting beauty of Southeast Asia with three incredible destinations that offer a mix of culture, adventure, and relaxation. Andaman welcomes you with its stunning beaches, vibrant cities, and historic places. Vietnam enchants visitors with its breathtaking landscapes, bustling markets, and rich cultural heritage. Meanwhile, Malaysia blends modernity with tradition, showcasing lush rainforests, beautiful islands, and diverse cuisines. Each country promises unique experiences, making them must-visit spots for any traveler.",
-        images: ["/assets/webp/campaign/thailand/promo-01.webp", "/assets/webp/campaign/thailand/promo-02.webp", "/assets/webp/campaign/thailand/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/thailand/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/thailand/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/thailand/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18282,29 +18282,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "Malaysia",
         subtitle: "Moments",
         cta: "Book Your Dream Journey",
-        backgroundImage: "/assets/webp/campaign/malaysia/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/malaysia/hero-image.webp"
     },
     packages: [{
         title: "Malaysia - Skyworld Gateway",
         duration: "2 Nights & 3 Days",
         type: "Tour Package",
         details: ["Skyworld Outdoor Theme Park", "Genting Cable Car Ride", "Batu Cave Tour"],
-        image: "/assets/webp/campaign/malaysia/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/malaysia/package-01.webp"
     }, {
         title: "Malaysia - Genting Highlands Gateway",
         duration: "2 Nights & 3 Days",
         type: "Tour Package",
         details: ["Genting Highland Theme Park", "Putra Mosque and Putrajaya Lake", "Batu Cave Tour"],
-        image: "/assets/webp/campaign/malaysia/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/malaysia/package-02.webp"
     }],
     gallery: {
         title: "Let LEGSGO Craft Your Unforgettable Trip",
-        images: ["/assets/webp/campaign/malaysia/gallery-01.webp", "/assets/webp/campaign/malaysia/gallery-02.webp", "/assets/webp/campaign/malaysia/gallery-03.webp", "/assets/webp/campaign/malaysia/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/malaysia/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/malaysia/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/malaysia/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/malaysia/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Destinations",
         description: "Explore the enchanting beauty of Southeast Asia with three incredible destinations that offer a mix of culture, adventure, and relaxation. Andaman welcomes you with its stunning beaches, vibrant cities, and historic places. Vietnam enchants visitors with its breathtaking landscapes, bustling markets, and rich cultural heritage. Meanwhile, Singapore blends modernity with tradition, showcasing lush rainforests, beautiful islands, and diverse cuisines. Each country promises unique experiences, making them must-visit spots for any traveler.",
-        images: ["/assets/webp/campaign/malaysia/promo-01.webp", "/assets/webp/campaign/malaysia/promo-02.webp", "/assets/webp/campaign/malaysia/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/malaysia/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/malaysia/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/malaysia/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18317,29 +18317,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "Enchanting Hills of Manali",
         subtitle: "Where Adventure Meets Tranquility",
         cta: "Book Your Dream Journey",
-        backgroundImage: "/assets/webp/campaign/manali/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/manali/hero-image.webp"
     },
     packages: [{
         title: "Kullu Manali - Solang Valley",
         duration: "3 Nights & 4 Days",
         type: "Tour Package",
         details: ["Hadimba Devi Temple", "Solang Valley", "Skiing and Paragliding"],
-        image: "/assets/webp/campaign/manali/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/manali/package-01.webp"
     }, {
         title: "Kullu Manali - Local",
         duration: "4 Nights & 5 Days",
         type: "Tour Package",
         details: ["Manali Local", "Solang Valley", "Devlok Cultural Theme Park", "Zorbing, ATV Rides", "Manikaran Sulphur hot Spring"],
-        image: "/assets/webp/campaign/manali/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/manali/package-02.webp"
     }],
     gallery: {
         title: "Let LEGSGO Craft Your Unforgettable Trip",
-        images: ["/assets/webp/campaign/manali/gallery-01.webp", "/assets/webp/campaign/manali/gallery-02.webp", "/assets/webp/campaign/manali/gallery-03.webp", "/assets/webp/campaign/manali/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/manali/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/manali/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/manali/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/manali/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Destinations",
         description: "Explore the enchanting beauty of Southeast Asia with three incredible destinations that offer a mix of culture, adventure, and relaxation. Andaman welcomes you with its stunning beaches, vibrant cities, and historic places. Vietnam enchants visitors with its breathtaking landscapes, bustling markets,and rich cultural heritage. Meanwhile, Singapore blends modernity with tradition, showcasing lush rainforests, beautiful islands, and diverse cuisines. Each country promises unique experiences, making them must-visit spots for any traveler.",
-        images: ["/assets/webp/campaign/manali/promo-01.webp", "/assets/webp/campaign/manali/promo-02.webp", "/assets/webp/campaign/manali/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/manali/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/manali/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/manali/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18352,29 +18352,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "",
         subtitle: "",
         cta: "Book Your Dream Journey",
-        backgroundImage: "/assets/webp/campaign/goa/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/goa/hero-image.webp"
     },
     packages: [{
         title: "Traditional Goa Tour",
         duration: "3 Nights & 4 Days",
         type: "Tour Package",
         details: ["Goa Sightseeing", "St. Augustine Tower & Cathedral Church", "Miramar Beach & Panjim Bazaar."],
-        image: "/assets/webp/campaign/goa/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/goa/package-01.webp"
     }, {
         title: "Goa & Gokarna Tour",
         duration: "4 Nights & 5 Days",
         type: "Tour Package",
         details: ["South Goa Tour", "Cultural Exploration", "Gokarna Temple Tour", "Yana Caves", "Dona Pula Viewpoint"],
-        image: "/assets/webp/campaign/goa/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/goa/package-02.webp"
     }],
     gallery: {
         title: "Let LEGSGO Craft Your Unforgettable Trip",
-        images: ["/assets/webp/campaign/goa/gallery-01.webp", "/assets/webp/campaign/goa/gallery-02.webp", "/assets/webp/campaign/goa/gallery-03.webp", "/assets/webp/campaign/goa/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/goa/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/goa/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/goa/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/goa/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Domestic Destinations",
         description: "Explore the enchanting beauty of South India with three incredible destinations that offer a mix of culture, adventure, and relaxation. Manali welcomes you with its snow-capped mountains, thrilling activities, and peaceful valleys. Munnar enchants visitors with its lush tea gardens, misty hills, and serene atmosphere. Meanwhile, Ooty blends colonial charm with natural beauty, showcasing scenic lakes, botanical gardens, and cool weather. Each destination promises unique experiences, making them must-visit spots for any traveler.",
-        images: ["/assets/webp/campaign/goa/promo-01.webp", "/assets/webp/campaign/goa/promo-02.webp", "/assets/webp/campaign/goa/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/goa/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/goa/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/goa/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18387,29 +18387,29 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
         highlight: "Fairytale Holiday in",
         subtitle: "Enchanting Azerbaijan",
         cta: "Plan your Holiday Now",
-        backgroundImage: "/assets/webp/campaign/azerbaijan/hero-image.webp"
+        backgroundImage: "https://www.legsgo.com/assets/webp/campaign/azerbaijan/hero-image.webp"
     },
     packages: [{
         title: "AZERBAIJAN",
         duration: "3 Nights & 4 Days",
         type: "Caspian Gateway",
         details: ["Baku", "Shahdag"],
-        image: "/assets/webp/campaign/azerbaijan/package-01.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/azerbaijan/package-01.webp"
     }, {
         title: "AZERBAIJAN",
         duration: "4 Nights & 5 Days",
         type: "Fireland Journey",
         details: ["Gobustan Mud Volcano", "Yanardagh Burning Mountain"],
-        image: "/assets/webp/campaign/azerbaijan/package-02.webp"
+        image: "https://www.legsgo.com/assets/webp/campaign/azerbaijan/package-02.webp"
     }],
     gallery: {
         title: "Turn Moments into Memories with LEGSGO Holidays",
-        images: ["/assets/webp/campaign/azerbaijan/gallery-01.webp", "/assets/webp/campaign/azerbaijan/gallery-02.webp", "/assets/webp/campaign/azerbaijan/gallery-03.webp", "/assets/webp/campaign/azerbaijan/gallery-04.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/azerbaijan/gallery-01.webp", "https://www.legsgo.com/assets/webp/campaign/azerbaijan/gallery-02.webp", "https://www.legsgo.com/assets/webp/campaign/azerbaijan/gallery-03.webp", "https://www.legsgo.com/assets/webp/campaign/azerbaijan/gallery-04.webp"]
     },
     additionalPromotions: {
         title: "Our Popular Destinations",
         description: "Three Unforgettable Southeast Asian Escapes – A Perfect Mix of Culture, Adventure, and Pure Bliss",
-        images: ["/assets/webp/campaign/azerbaijan/promo-01.webp", "/assets/webp/campaign/azerbaijan/promo-02.webp", "/assets/webp/campaign/azerbaijan/promo-03.webp"]
+        images: ["https://www.legsgo.com/assets/webp/campaign/azerbaijan/promo-01.webp", "https://www.legsgo.com/assets/webp/campaign/azerbaijan/promo-02.webp", "https://www.legsgo.com/assets/webp/campaign/azerbaijan/promo-03.webp"]
     },
     footer: "© 2025 LegsGo LLC All rights reserved."
 }
@@ -18479,7 +18479,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             delay: .2
                         },
                         children: [s.jsx(V.img, {
-                            src: "/assets/svg/telephone.svg",
+                            src: "https://www.legsgo.com/assets/svg/telephone.svg",
                             className: "w-8 h-8 inline-block",
                             animate: {
                                 rotate: [0, 10, -10, 0],
@@ -18500,7 +18500,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             scale: 1.02
                         },
                         children: [s.jsx("img", {
-                            src: "/assets/svg/iata.svg",
+                            src: "https://www.legsgo.com/assets/svg/iata.svg",
                             alt: "IATA Certified",
                             className: "h-[15vh] lg:h-[19vh] object-contain relative z-10"
                         }), s.jsx(V.div, {
@@ -18514,11 +18514,11 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                                 repeatType: "reverse"
                             },
                             style: {
-                                maskImage: "url('/assets/svg/iata.svg')",
+                                maskImage: "url('https://www.legsgo.com/assets/svg/iata.svg')",
                                 maskSize: "contain",
                                 maskPosition: "center",
                                 maskRepeat: "no-repeat",
-                                WebkitMaskImage: "url('/assets/svg/iata.svg')",
+                                WebkitMaskImage: "url('https://www.legsgo.com/assets/svg/iata.svg')",
                                 WebkitMaskSize: "contain",
                                 WebkitMaskPosition: "center",
                                 WebkitMaskRepeat: "no-repeat"
@@ -18892,7 +18892,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                         }), s.jsx("div", {
                             className: "h-16 md:h-20 flex items-center",
                             children: s.jsx("img", {
-                                src: "/assets/svg/iata.svg",
+                                src: "https://www.legsgo.com/assets/svg/iata.svg",
                                 alt: "IATA Certified",
                                 className: "h-full object-contain transition-transform duration-300 hover:scale-105"
                             })
@@ -18911,7 +18911,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             }), s.jsx("div", {
                                 className: "h-14 flex items-center",
                                 children: s.jsx("img", {
-                                    src: "/assets/svg/iata.svg",
+                                    src: "https://www.legsgo.com/assets/svg/iata.svg",
                                     alt: "IATA Certified",
                                     className: "h-full object-contain transition-transform active:scale-95"
                                 })
@@ -18930,7 +18930,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                 children: [s.jsx("div", {
                     className: "w-full",
                     children: s.jsx("img", {
-                        src: "/assets/webp/campaign/visa/visa-hero-section.webp",
+                        src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-hero-section.webp",
                         alt: "Visa Application",
                         className: "w-full h-auto"
                     })
@@ -18961,11 +18961,11 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                                 }), s.jsxs("div", {
                                     className: "flex items-center animate-pulse-slow",
                                     children: [s.jsx("img", {
-                                        src: "/assets/fav-icons/favicon.svg",
+                                        src: "https://www.legsgo.com/assets/fav-icons/favicon.svg",
                                         alt: "Legsgo Holidays",
                                         className: "h-16 md:h-20 mr-4"
                                     }), s.jsx("img", {
-                                        src: "/assets/webp/campaign/visa/visa-experts.png",
+                                        src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-experts.png",
                                         alt: "Legsgo Holidays",
                                         className: "h-16"
                                     })]
@@ -19101,7 +19101,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                         }), s.jsx("div", {
                             className: "flex justify-center mt-2 mb-5 animate-pulse-slow",
                             children: s.jsx("img", {
-                                src: "/assets/fav-icons/favicon.svg",
+                                src: "https://www.legsgo.com/assets/fav-icons/favicon.svg",
                                 alt: "Legsgo Holidays",
                                 className: "h-14",
                                 loading: "lazy"
@@ -19116,7 +19116,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                         children: [s.jsx("div", {
                             className: "bg-purple-800 rounded-full p-3 w-20 h-20 flex items-center justify-center mb-4 mx-auto transform hover:scale-105 transition-transform duration-300",
                             children: s.jsx("img", {
-                                src: "/assets/webp/campaign/visa/visa-experts.png",
+                                src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-experts.png",
                                 alt: "Legsgo Holidays",
                                 className: "h-12 w-12 object-contain"
                             })
@@ -19252,7 +19252,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             children: [s.jsx("div", {
                                 className: "p-2 bg-purple-50 rounded-full mb-3 mx-auto w-20 h-20 flex items-center justify-center shadow-sm hover:shadow-md transition-all duration-300",
                                 children: s.jsx("img", {
-                                    src: `/assets/webp/campaign/visa/visa-process-0${h}.png`,
+                                    src: `https://www.legsgo.com/assets/webp/campaign/visa/visa-process-0${h}.png`,
                                     alt: `Process Step ${h}`,
                                     className: "w-12 h-12 md:w-14 md:h-14 object-contain transition-transform hover:scale-110 duration-300"
                                 })
@@ -19302,7 +19302,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                                 children: [s.jsx("div", {
                                     className: "bg-white p-2 rounded-full shadow-sm mr-3",
                                     children: s.jsx("img", {
-                                        src: `/assets/webp/campaign/visa/visa-application-0${h}.png`,
+                                        src: `https://www.legsgo.com/assets/webp/campaign/visa/visa-application-0${h}.png`,
                                         alt: Er(h),
                                         className: "w-10 h-10 transition-transform duration-300 hover:scale-110"
                                     })
@@ -19337,7 +19337,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                         children: [1, 2, 3, 4].map( (h, g) => s.jsx("div", {
                             className: "bg-purple-50 border border-purple-100 rounded-lg p-6 h-full min-h-[320px] max-w-[340px] w-full transform transition-all duration-300 hover:-translate-y-3 hover:shadow-xl opacity-0 animate-scaleIn",
                             style: {
-                                backgroundImage: 'url("/assets/webp/campaign/visa/visa-assistant-bg.png")',
+                                backgroundImage: 'url("https://www.legsgo.com/assets/webp/campaign/visa/visa-assistant-bg.png")',
                                 backgroundSize: "100% 100%",
                                 backgroundPosition: "center",
                                 backgroundRepeat: "no-repeat",
@@ -19348,7 +19348,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             children: s.jsxs("div", {
                                 className: "flex flex-col items-center text-center h-full justify-center lg:justify-between py-4",
                                 children: [s.jsx("img", {
-                                    src: `/assets/webp/campaign/visa/visa-assistant-0${h}.png`,
+                                    src: `https://www.legsgo.com/assets/webp/campaign/visa/visa-assistant-0${h}.png`,
                                     alt: Dr(h),
                                     className: "w-20 h-20 mb-5 transition-transform hover:scale-110 duration-300"
                                 }), s.jsx("h5", {
@@ -19385,7 +19385,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             animationDelay: "0.3s"
                         },
                         children: s.jsx("img", {
-                            src: "/assets/webp/campaign/visa/visa-countries.webp",
+                            src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-countries.webp",
                             alt: "Countries we provide visa services for",
                             className: "max-w-full h-auto mx-auto transition-all duration-500 hover:shadow-2xl rounded-lg"
                         })
@@ -19449,7 +19449,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             children: [s.jsx("div", {
                                 className: "p-2 rounded-full mb-4",
                                 children: s.jsx("img", {
-                                    src: "/assets/webp/campaign/visa/visa-experts.png",
+                                    src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-experts.png",
                                     alt: "Contact Expert",
                                     className: "w-14 h-14 animate-pulse-slow"
                                 })
@@ -19459,7 +19459,7 @@ const Tr = ({href: e, className: t, icon: a, ariaLabel: n}) => s.jsx("a", {
                             }), s.jsxs("div", {
                                 className: "flex items-center justify-center transition-transform duration-300 hover:scale-110",
                                 children: [s.jsx("img", {
-                                    src: "/assets/webp/campaign/visa/visa-telephone.png",
+                                    src: "https://www.legsgo.com/assets/webp/campaign/visa/visa-telephone.png",
                                     alt: "Telephone",
                                     className: "w-8 h-8 mr-3 animate-pulse-slow"
                                 }), s.jsx("h6", {
