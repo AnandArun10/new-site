@@ -16118,7 +16118,7 @@ const Cr = {
                                                     }), s.jsxs("div", {
                                                         className: "relative rounded-lg overflow-hidden flex-grow min-h-[160px] group/featured mb-3 shadow-md",
                                                         children: [s.jsx("img", {
-                                                            src: "https://www.legsgo.com/assets/featured-destination.jpg",
+                                                            src: "hhttps://images.unsplash.com/photo-1530789253388-582c481c54b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
                                                             alt: "Featured Destination",
                                                             className: "absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover/featured:scale-110",
                                                             onError: M => {
