@@ -9027,7 +9027,7 @@ const Wt = ({slides: e=[1, 2, 3, 5], aspectRatio: t="5/1", noControls: a=!1, del
                     children: s.jsx("img", {
                         className: "size-full object-cover",
                         loading: "lazy",
-                        src: d.banner || d,
+                        src: "https://www.legsgo.com" + d.banner || d,
                         alt: d.title || "LegsGo Holidays"
                     })
                 })
