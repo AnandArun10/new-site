@@ -9075,7 +9075,7 @@ const Wt = ({slides: e=[1, 2, 3, 5], aspectRatio: t="5/1", noControls: a=!1, del
                 children: [s.jsx("span", {
                     className: "inline-block w-full aspect-square bg-gray-200 rounded-full overflow-hidden group",
                     children: s.jsx("img", {
-                        src: a.images[0],
+                        src: "https://www.legsgo.com" + a.images[0],
                         loading: "lazy",
                         alt: a.title,
                         className: "size-full object-cover group-hover:scale-105 transition-transform ease-in-out duration-300"
@@ -16635,7 +16635,7 @@ const Cr = {
                                 children: [s.jsx("div", {
                                     className: "size-10 rounded-full overflow-clip bg-gray-100 shrink-0 pointer-events-none",
                                     children: s.jsx("img", {
-                                        src: a.images[0],
+                                        src: "https://www.legsgo.com" + a.images[0],
                                         alt: a.title,
                                         loading: "lazy",
                                         className: "size-full object-cover"
